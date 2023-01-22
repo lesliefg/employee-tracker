@@ -30,12 +30,19 @@
 2. Clone the repo using Gitbash with the command "git clone (link)" OR download the entire repo as a zip file.
 3. Once open in VS Code, install NPM using "npm i" in the terminal
 5. Next install inquirer using "npm i inquirer@8.2.4" in the terminal
-6. Instal console.table to print MySQL rows to the console using "bpm install console.table" for more instructions check the link in the credits below.
+6. Instal console.table to print MySQL rows to the console using "npm install console.table" for more instructions check the link in the credits below.
 7. Optional: install dotenv to save password locally using "npm i dotenv" for more instructions check the link in the credits below.
+8. Optional: create a .env file and add "SET_DBPW = "PASSWORD" for it to auto run with your password.
 
 ## Usage
-- In order to use simply download the repo locally, follow installation instructions above and then run the using the following commands:
-    1. 
+- In order to use simply download the repo locally, follow installation instructions above and then run using the following commands:
+    1. "mysql -u root -p"
+    2. Enter password when prompted.
+    3. "SOURCE ./db/schema.sql"
+    4. "SOURCE ./db/seeds.sql"
+    5. "Exit"
+    6. "npm start"
+    7. Server will now run and you can then use any of the provided prompts!
 
 
 ## Questions
