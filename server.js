@@ -59,11 +59,11 @@ function startServer() {
             case 'Update an employee role':
                 updateEmployeeRole();
                 break;
-            case 'Exit Server':
-                exitServer();
+            case 'View Data':
+                viewData();
                 break;
             default:
-                viewData();
+                exitServer();
         }
     })
 }
