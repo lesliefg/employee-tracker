@@ -19,6 +19,7 @@
 ## Installation
 - Visit the GitHub repo linked below and clone it to your local storage by downloading a zip or importing using GitHub to your own repo.
 - Github repo: [https://github.com/lesliefg/employee-tracker] 
+- Tutorial: [https://drive.google.com/file/d/1t28nSIMHPaMYDuAN6qGK2TV6DaIEbjMy/view] Also available in the assets folder
 
 ### Make sure to have the following things installed
 * VS Code
@@ -36,13 +37,14 @@
 
 ## Usage
 - In order to use simply download the repo locally, follow installation instructions above and then run using the following commands:
-    1. "mysql -u root -p"
-    2. Enter password when prompted.
-    3. "SOURCE ./db/schema.sql"
-    4. "SOURCE ./db/seeds.sql"
-    5. "Exit"
-    6. "npm start"
-    7. Server will now run and you can then use any of the provided prompts!
+1. "mysql -u root -p"
+2. Enter password when prompted.
+3. "SOURCE ./db/schema.sql"
+4. "SOURCE ./db/seeds.sql"
+5. "Exit"
+6. "npm start"
+7. Server will now run and you can then use any of the provided prompts!
+8. To exit you can use the "Exit" option or use CTRL + C
 
 
 ## Questions
@@ -58,5 +60,6 @@
 ## Licenses
     - This project has a MIT license. To learn more about this license type click the license button at the top of the README.
 
-## Screenshots
-![alt text](tba)
+## Screenshots & Tutorial
+![alt text](./assets/tutorial.webm)
+[https://drive.google.com/file/d/1t28nSIMHPaMYDuAN6qGK2TV6DaIEbjMy/view]
