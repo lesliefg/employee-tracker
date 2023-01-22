@@ -61,6 +61,7 @@ function startServer() {
                 break;
             case 'View Data':
                 viewData();
+                startServer();
                 break;
             default:
                 exitServer();
