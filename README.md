@@ -61,5 +61,5 @@
     - This project has a MIT license. To learn more about this license type click the license button at the top of the README.
 
 ## Screenshots & Tutorial
-![alt text](./assets/tutorial.webm)
+![alt text](./assets/screenshot-one.png)
 [https://drive.google.com/file/d/1t28nSIMHPaMYDuAN6qGK2TV6DaIEbjMy/view]
